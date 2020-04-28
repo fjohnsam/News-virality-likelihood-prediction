@@ -20,3 +20,10 @@ Methodology :
    b) Supervised Learning approach {Not implemented as of now} Steps: i) Train a GRU model with news collection from open-source repository. ii) Feed the crawled news to get the prediction
    
 Unsupervised Learning is a better approach for measuring the virality of news as supervised approach uses news datasets from prebuilt repositories which contains older news, and thus not a good measure for predicting virality of current news articles.{as per my intuition}
+
+Note:
+You may set the Hyper-parameters:
+1. minimum_similarity_score = 0.15 (default)
+2. minimum_number_of_occurences_for_virality = 2 (default) 
+
+to get appropriate results
