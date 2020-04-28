@@ -13,7 +13,7 @@ Methodology :
 2. Crawled current national news from hindi news website (https://www.dainikbhaskar.com)
 3. Converted all crawled news to a common language ( hindi to english in this case )
 4. Created a tf-idf score for all the crawled news.
-5. a) Unsupervised Learning approach {implemented as of now}
+5. a) Unsupervised Learning approach {implemented as of now} Steps: 
      i) Measured the similarity of a news with all other crawled news.
     ii)Hence clustered similar news.
     iii)If a cluster contains more than a threshold(hyperparameter) of news then it is predicted to be viral.
