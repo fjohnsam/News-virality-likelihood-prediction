@@ -1,12 +1,12 @@
 # News-virality-likelihood-prediction
 
 Library Requirements :
-  pip install numpy
-  pip install requests
-  pip install BeautifulSoap
-  pip install googletrans
-  pip install gensim
-  pip install nltk
+  1. pip install numpy
+  2. pip install requests
+  3. pip install BeautifulSoap
+  4. pip install googletrans
+  5. pip install gensim
+  6. pip install nltk
   
 Methodology :
 1. Crawled current national news from English news website (https://www.hindustantimes.com)
