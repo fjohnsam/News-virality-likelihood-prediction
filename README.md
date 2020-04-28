@@ -17,6 +17,6 @@ Methodology :
      i) Measured the similarity of a news with all other crawled news.
     ii)Hence clustered similar news.
     iii)If a cluster contains more than a threshold(hyperparameter) of news then it is predicted to be viral.
-   b) Train a GRU model with news collection from open-source repository. Feed the crawled news to get the prediction{Not implemented as of now}
+   b) Supervised Learning approach {Not implemented as of now} Steps: i) Train a GRU model with news collection from open-source repository. ii) Feed the crawled news to get the prediction
    
 Unsupervised Learning is a better approach for measuring the virality of news as supervised approach uses news datasets from prebuilt repositories which contains older news, and thus not a good measure for predicting virality of current news articles.{as per my intuition}
